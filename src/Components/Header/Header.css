@@ -35,3 +35,11 @@ input{
 .href-input{
     align-items: center;
 }
+
+.welcome-section{
+    display: flex;
+}
+
+.welcome-section h2,p{
+    color: white;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../images/logo-small.png'
 import '../Header/Header.css'
 import mealIcon from '../../images/meal-icon.png'
+import supportIcon from '../../images/patreon_logo.png'
 
 const Header = () => {
     return (
@@ -25,6 +26,7 @@ const Header = () => {
                         We also offer a free JSON API for anyone wanting to use it.
                         If you like the site, please consider supporting us on Patreon by clicking the link below...
                     </p>
+                    <img src={supportIcon} alt="" />
                 </div>
                 <div>
                     <img src={mealIcon} alt="" />
