@@ -6,7 +6,12 @@ const Header = () => {
     return (
         <div className="header">
             <img src={logo} alt="" />
-            <div></div>
+            <div>
+                <a href="/home">Home</a>
+                <a href="/api">API</a>
+                <a href="/forum">Forum</a>
+                <input type="text" placeholder="Search"/>
+            </div>
         </div>
     );
 };
