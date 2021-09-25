@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="header">
             <img src={logo} alt="" />
-            <div>
+            <div className="href-input">
                 <a href="/home">Home</a>
                 <a href="/api">API</a>
                 <a href="/forum">Forum</a>
