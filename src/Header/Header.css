@@ -9,4 +9,7 @@
     justify-content: space-between;
     padding-left: 3rem;
     padding-right: 3rem;
+    background-color: black;
+    align-items: center;
+    line-height: 5rem;
 }
