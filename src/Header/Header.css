@@ -13,3 +13,14 @@
     align-items: center;
     line-height: 5rem;
 }
+
+a:any-link{
+    text-decoration: none;
+}
+
+.header a{
+    background-color: brown;
+    margin:1rem ;
+    font-size: 1rem;
+    color: white;
+}
