@@ -43,3 +43,11 @@ input{
 .welcome-section h2,p{
     color: white;
 }
+
+.welcome-section a{
+    color: goldenrod;
+}
+.welcome img{
+    width: 15rem;
+    padding: .5rem;
+}
